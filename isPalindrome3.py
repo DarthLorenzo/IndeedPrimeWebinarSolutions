@@ -1,3 +1,6 @@
+"""
+    A solution to this problem: https://leetcode.com/problems/palindrome-partitioning/
+"""
 class PrimePalindrome:
 
     @staticmethod

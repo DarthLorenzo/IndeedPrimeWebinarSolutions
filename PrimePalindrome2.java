@@ -1,5 +1,8 @@
 import java.lang.StringBuilder
 
+/**
+ * A solution to this problem: https://leetcode.com/problems/valid-palindrome/
+ */
 class PrimePalindrome2 {
     public boolean isWordPalindrome(String text) {
         String lowercaseText = text.toLowerCase();

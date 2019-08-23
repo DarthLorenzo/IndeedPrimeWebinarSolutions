@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
+/**
+ * A solution to this problem: https://leetcode.com/problems/palindrome-partitioning/
+ */
 class PrimePalindrome3 {
     public List<List<String>> partition(String text) {
         Map<Integer, List<Integer>> palindromeMapping = findPalindromes(text);

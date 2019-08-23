@@ -1,3 +1,7 @@
+/**
+ * Roughly a solution to this problem: https://leetcode.com/problems/palindrome-number/
+ * We discussed text instead of numbers in the webinar
+ */
 class PrimePalindrome1 {
     public boolean isPalindrome(String text) {
         // keep track of positions we are comparing in the text
